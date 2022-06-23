@@ -186,7 +186,7 @@ div > div.g-recaptcha > div {
 
 div.header_div {
   max-width: 100vw;
-  height: 60vh;
+  height: 70vh;
   /* overflow: hidden; */
   background-image: url("../../images/cover/mags_cover_1.jpg");
   background-size: cover;
