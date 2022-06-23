@@ -188,7 +188,7 @@ div.header_div {
   max-width: 100vw;
   height: 60vh;
   /* overflow: hidden; */
-  background-image: url("../../images/mags_cover_1.jpg");
+  background-image: url("../../images/cover/mags_cover_1.jpg");
   background-size: cover;
   display: -webkit-flexbox;
   display: -ms-flexbox;
@@ -199,6 +199,19 @@ div.header_div {
   -webkit-align-items: center;
   align-items: center;
   justify-content: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  div.header_div {
+    height: 40vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  div.header_div {
+    height: 30vh;
+  }
 }
 
 div.home_entrance_div_ninety {
