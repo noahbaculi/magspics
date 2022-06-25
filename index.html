@@ -20,7 +20,7 @@
     />
   </head>
 
-  <body class="is-preload">
+  <body">
     <!-- Wrapper -->
     <div id="wrapper">
       <!-- Main -->
@@ -389,21 +389,18 @@
         .click(function () {
           var src = $(this).attr("src");
           var modal;
-          var size = "contain";
 
           function removeModal() {
             modal.remove();
             $("body").off("keyup.modal-close");
           }
           modal = $(
-            '<div><img src="' +
+            '<div class="fade-in-img"><img src="' +
               src +
               '" style="max-width: 90vw; max-height: 90vh; border-radius: 5px;">'
           )
             .css({
-              //   background: "RGBA(0,0,0,.7) url(" + src + ") no-repeat center",
               background: "RGBA(0,0,0,.8)",
-              backgroundSize: size,
               display: "flex",
               "justify-content": "center",
               "align-items": "center",
