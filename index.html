@@ -389,16 +389,9 @@
           const max_width = "90vw";
 
           const img_html = `<img
-				srcset="
-					${img}_400_w.webp 300w,
-					${img}_800_w.webp 600w,
-					${img}_1500_w.webp 1000w,
-					${img}_2200_w.webp 2200w
-				"
-				sizes="${max_width}"
 				loading="lazy"
 				decoding="async"
-				src="${src}"
+				src="${img}_2200_w.webp"
 				style="
 					max-width: ${max_width};
 					max-height: 90vh;
