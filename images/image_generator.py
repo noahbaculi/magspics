@@ -71,8 +71,8 @@ def convert_folder(base_path: str, widths: list, exclude: list = None, include: 
 
 
 if __name__ == "__main__":
-    # convert_folder(r"C:\Users\Noah\Documents\magspictures\images\portfolio", [400, 800, 1500])
+    # convert_folder(r"C:\Users\Noah\Documents\magspictures\images\portfolio", [400, 800, 1500, 2200])
     # convert_folder(r"C:\Users\Noah\Documents\magspictures\images\icons", [100], include=["instagram", "twitter"])
-    convert_folder(r"C:\Users\Noah\Documents\magspictures\images\cover", [600, 1000, 2000])
+    # convert_folder(r"C:\Users\Noah\Documents\magspictures\images\cover", [600, 1000, 2000])
 
     print("Done.")
