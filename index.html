@@ -384,6 +384,7 @@
       $("img.enlargeable")
         .addClass("img-modal")
         .click(function () {
+          let modal;
           const src = $(this).attr("src");
           const img = src.replace(".jpg", "");
           const max_width = "90vw";
@@ -391,7 +392,7 @@
           const img_html = `<img
 				loading="lazy"
 				decoding="async"
-				src="${img}_2200_w.webp"
+				src="${src}"
 				style="
 					max-width: ${max_width};
 					max-height: 90vh;
@@ -399,9 +400,6 @@
 				"
 			/>
 			`;
-
-          console.log(img_html);
-          let modal;
 
           function removeModal() {
             modal.remove();
