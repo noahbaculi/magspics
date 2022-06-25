@@ -203,6 +203,9 @@ div.header_div {
 }
 
 @media screen and (max-width: 900px) {
+  h1 {
+    font-size: 3em;
+  }
   div.header_div {
     height: 40vh;
     background-image: url("../../images/cover/mags_cover_1_1000_w.webp");
@@ -271,8 +274,8 @@ select,
 textarea {
   color: #383838;
   /* font-family: "Source Sans Pro", Helvetica, sans-serif; */
-  /* font-family: 'Quicksand', sans-serif; */
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  /* font-family: "Nunito Sans", sans-serif; */
   font-size: 14pt;
   font-weight: 300;
   line-height: 1.75;
@@ -341,7 +344,7 @@ h6 {
 }
 
 h1 {
-  font-size: 2.3em;
+  font-size: 4em;
   line-height: 1.3;
   margin: 0 0 1em 0;
   letter-spacing: -0.035em;
@@ -378,6 +381,9 @@ h6 {
 }
 
 @media screen and (max-width: 736px) {
+  h1 {
+    font-size: 3em;
+  }
   h2 {
     padding-top: 2em;
     padding-bottom: 2em;
