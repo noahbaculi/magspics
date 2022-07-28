@@ -32,7 +32,7 @@ def covert_img(file_path: str, widths: list, exclude: list, include: list) -> st
         size_ratio = width / old_size[0]
         new_size = tuple(round(dimension * size_ratio) for dimension in old_size)
 
-        new_img = img.resize(new_size, Image.Resampling.LANCZOS)
+        new_img = img.resize(new_size, Image.LANCZOS)
         new_img.save(f"{file_name}_{width}_w.webp", "webp")
 
         if width >= old_size[0]:
@@ -71,7 +71,7 @@ def convert_folder(base_path: str, widths: list, exclude: list = None, include: 
 
 
 if __name__ == "__main__":
-    # convert_folder(r"C:\Users\Noah\Documents\magspictures\images\portfolio", [400, 800, 1500, 2200])
+    convert_folder(r"C:\Users\Noah\Documents\magspics\images\portfolio", [400, 800, 1500, 2200])
     # convert_folder(r"C:\Users\Noah\Documents\magspictures\images\icons", [100], include=["instagram", "twitter"])
     # convert_folder(r"C:\Users\Noah\Documents\magspictures\images\cover", [600, 1000, 2000])
 
