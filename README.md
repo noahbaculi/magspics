@@ -4,7 +4,7 @@
 
 <br />
 <div align="center">
-  <a href="https://www.magspics.com/">
+  <a href="https://magspics.com/">
     <img src="images/icons/favicon.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -13,7 +13,7 @@
 <p align="center">
     Maggie Photography Portfolio
     <br />
-    <a href="https://www.magspics.com/"><strong>Explore »</strong></a>
+    <a href="https://magspics.com/"><strong>Explore »</strong></a>
     <br />
     <br />
     <a href="https://github.com/noahbaculi/magspics/issues">Report Bug</a>
